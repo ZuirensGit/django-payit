@@ -10,10 +10,21 @@ button#payment.success {
 	background: #4dbd74;
 }
 
+button#payment.success:hover {
+	background: #00db4c;
+}
+
 button#payment.debug {
+	background: #e6bc00;
+}
+
+button#payment.debug:hover {
 	background: #f8cb00;
 }
 
 button#payment.error {
+	background: #ff0200;
+}
+button#payment.error:hover {
 	background: #f86c6b;
 }
