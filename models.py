@@ -6,6 +6,7 @@ from django.utils import timezone
 
 # Create your models here.
 class Spgateway(models.Model):
+    status = models.CharField(default='debug', max_length=10)
     member_unified = models.CharField(unique=True, max_length=10)
     timestamp = models.DateTimeField(default=timezone.now)
     idcard_year = models.CharField(max_length=3, blank=True, null=True, verbose_name=u'ID card year')

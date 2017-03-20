@@ -1,0 +1,19 @@
+
+
+button#payment {
+	border: none;
+	font-weight: bold;
+	color: white;
+}
+
+button#payment.success {
+	background: #4dbd74;
+}
+
+button#payment.debug {
+	background: #f8cb00;
+}
+
+button#payment.error {
+	background: #f86c6b;
+}
